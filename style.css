@@ -55,7 +55,7 @@ body {
 .small-card {
     padding: 10px;
     margin: 20px;
-    height: 400px;
+    height: 450px;
     width: 300px;
     border-radius: 10px;
     border: 2px solid #ccc;
@@ -72,6 +72,9 @@ body {
     justify-content: center;
     align-items: center;
     /* height: 100vh; /* This centers vertically */
+    display: block;
+    margin-bottom: 10px; /* Add some space between paragraphs */
+    float: center;
 }
 
 .link-button {
