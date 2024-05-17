@@ -41,6 +41,10 @@ ul {
     overflow: hidden;
 }
 
+.home-container {
+    overflow-y: auto; /* Allows vertical scrolling for content */
+    height: 100%; /* Fills the height of the .home-background */
+}
 
 .howto-container {
     border: 2px solid #ccc; /* Add a border around the entire quiz */
