@@ -19,6 +19,7 @@
     box-shadow: 3px 3px 10px grey;
     background-color: white;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .small-card {
@@ -50,8 +51,9 @@
     border: 1px solid black;
     border-radius: 5px;
     cursor: pointer;
-    width: calc(25% - 4px); 
+    width: 30px; 
     margin: 20px 4px;
+    text-decoration: none;
 }
 
 .icon-small {
