@@ -1,3 +1,37 @@
+/* The styles for the navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: orange;
+  }
+
+/* The styles for the home page */
 .home-background {
     background-image: url('./assets/homebg.jpg');
     background-size: cover;
@@ -70,3 +104,19 @@
   .text-container {
     text-align: center;
   }
+
+  .content-container {
+    overflow-y: auto; /* Allows vertical scrolling for content */
+    height: 100%; /* Fills the height of the .home-background */
+    border: 2px solid #ccc; /* Add a border around the entire quiz */
+    padding: 50px; /* Add some padding inside the container */
+    margin: 0 auto; /* Center the container horizontally */
+    max-width: 600px; /* Limit the width of the container */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;  
+    box-shadow: 3px 3px 10px grey;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
