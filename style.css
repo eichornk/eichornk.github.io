@@ -33,17 +33,7 @@ ul {
 
 /* The styles for the home page */
 .home-background {
-    background-image: url('./assets/homebg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
-    overflow: hidden;
-}
-
-.home-container {
-    overflow-y: auto; /* Allows vertical scrolling for content */
-    height: 100%; /* Fills the height of the .home-background */
+    background-color: #FAC898;
 }
 
 .howto-container {
@@ -89,7 +79,7 @@ ul {
     border: 1px solid black;
     border-radius: 5px;
     cursor: pointer;
-    width: 30px; 
+    width: 60px; 
     margin: 20px 4px;
     text-decoration: none;
 }
@@ -110,8 +100,6 @@ ul {
   }
 
   .content-container {
-    overflow-y: auto; /* Allows vertical scrolling for content */
-    height: 100%; /* Fills the height of the .home-background */
     border: 2px solid #ccc; /* Add a border around the entire quiz */
     padding: 50px; /* Add some padding inside the container */
     margin: 0 auto; /* Center the container horizontally */
