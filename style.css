@@ -1,60 +1,46 @@
 /* The styles for the navigation bar */
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: orange;
-  }
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: orange;
+}
 
 /* The styles for the home page */
 body {
-    font-family: 'Lato', sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .howto-container {
-    border: 2px solid #ccc; /* Add a border around the entire quiz */
-    padding: 25px; /* Add some padding inside the container */
-    margin: 0 auto; /* Center the container horizontally */
-    max-width: 600px; /* Limit the width of the container */
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 10px;  
-    box-shadow: 3px 3px 10px grey;
-    background-color: white;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.bottom-container {
   border: 2px solid #ccc; /* Add a border around the entire quiz */
-  padding: 15px; /* Add some padding inside the container */
+  padding: 25px; /* Add some padding inside the container */
   margin: 0 auto; /* Center the container horizontally */
   max-width: 600px; /* Limit the width of the container */
   margin-top: 10px;
@@ -66,84 +52,106 @@ body {
   margin-bottom: 50px;
 }
 
+.bottom-container {
+  border: 2px solid #ccc;
+  padding: 15px; 
+  margin: 0 auto; 
+  max-width: 600px; 
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;  
+  box-shadow: 3px 3px 10px grey;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .small-card {
-    padding: 10px;
-    margin: 20px;
-    height: 230px;
-    width: 300px;
-    border-radius: 10px;
-    border: 2px solid #ccc;
-    box-shadow: 3px 3px 10px grey;
-    background-color: white; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  padding: 10px;
+  margin: 20px;
+  height: 230px;
+  width: 300px;
+  min-height: 230px;
+  min-width: 300px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  box-shadow: 3px 3px 10px grey;
+  background-color: white; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* height: 100vh; /* This centers vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Allow wrapping to handle smaller screens */
+  gap: 20px; /* Add space between elements */
 }
 
 .link-button {
-    background-color: #ff5733;
-    color: white;
-    padding: 10px 16px;
-    border: 1px solid black;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 60px; 
-    margin: 20px 4px;
-    text-decoration: none;
+  background-color: #ff5733;
+  color: white;
+  padding: 10px 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 60px; 
+  margin: 20px 4px;
+  text-decoration: none;
 }
 
 .icon-small {
-    width: 55px; /* Adjust the size as needed */
-    height: auto;
-    /*margin-right: 10px; /* Adjust spacing between icon and text */
-    vertical-align: middle; /* Align icon vertically with text */
+  width: 55px;
+  height: auto;
+  vertical-align: middle; /* Align icon vertically with text */
 }
 
-.icon-large{
-    width: 320px;
-    height: 250px;
-    object-fit: contain;
+.icon-large {
+  height: 230px;
+  width: 400px;
+  min-height: 230px;
+  min-width: 300px;
+  object-fit: contain;
+  cursor: pointer;
 }
 
 .img-card {
-    margin: 20px;
-    height: 250px;
-    width: 320px;
-    border-radius: 10px;
-    border: 2px solid #ccc;
-    box-shadow: 3px 3px 10px grey;
-    background-color: white; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  margin: 20px;
+  height: 230px;
+  width: 420px;
+  min-height: 230px;
+  min-width: 300px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  box-shadow: 3px 3px 10px grey;
+  background-color: white; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
 }
 
-
 .text-container {
-    text-align: center;
+  text-align: center;
 }
 
 .content-container {
-    border: 2px solid #ccc; /* Add a border around the entire quiz */
-    padding: 50px; /* Add some padding inside the container */
-    margin: 0 auto; /* Center the container horizontally */
-    max-width: 600px; /* Limit the width of the container */
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 10px;  
-    box-shadow: 3px 3px 10px grey;
-    background-color: white;
-    text-align: center;
-    margin-bottom: 50px;
+  border: 2px solid #ccc; /* Add a border around the entire quiz */
+  padding: 50px; /* Add some padding inside the container */
+  margin: 0 auto; /* Center the container horizontally */
+  max-width: 600px; /* Limit the width of the container */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;  
+  box-shadow: 3px 3px 10px grey;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .footer {
@@ -151,4 +159,43 @@ body {
   margin-left: 20px;
   margin-bottom: 10px; /* Add some space between paragraphs */
   float: center;
+}
+
+/* Modal styles */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.9); 
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 75vw;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
 }
