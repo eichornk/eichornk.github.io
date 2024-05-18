@@ -105,14 +105,15 @@ body {
     height: auto;
     /*margin-right: 10px; /* Adjust spacing between icon and text */
     vertical-align: middle; /* Align icon vertically with text */
-  }
+}
 
-  .icon-large{
+.icon-large{
     width: 320px;
     height: 250px;
     object-fit: contain;
-  }
-  .img-card {
+}
+
+.img-card {
     margin: 20px;
     height: 250px;
     width: 320px;
@@ -127,11 +128,11 @@ body {
 }
 
 
-  .text-container {
+.text-container {
     text-align: center;
-  }
+}
 
-  .content-container {
+.content-container {
     border: 2px solid #ccc; /* Add a border around the entire quiz */
     padding: 50px; /* Add some padding inside the container */
     margin: 0 auto; /* Center the container horizontally */
